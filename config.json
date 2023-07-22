@@ -7,14 +7,14 @@
   "jwt_secret": "random generated",
   "token_expires_in": 48,
   "database": {
-    "type": "sqlite3",
+    "type": "postgres",
     "host": "",
     "port": 0,
     "user": "",
     "password": "",
     "name": "",
     "db_file": "data\\data.db",
-    "table_prefix": "alist_",
+    "table_prefix": "",
     "ssl_mode": ""
   },
   "scheme": {
