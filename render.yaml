@@ -1,15 +1,15 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: AList+Aria2
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
-    region: oregon # optional (defaults to oregon)
+    repo: https://github.com/V-Official-233/AList-Aria2-Render.git # optional
+    region: Singapore # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
     envVars:
       - key: PORT
-        value: 8080
+        value: 5244
       - key: DB_TYPE
         # value: sqlite3
         sync: false
@@ -30,7 +30,4 @@ services:
         sync: false
       - key: DB_TABLE_PREFIX
         # value: alist_
-        sync: false
-      - key: CDN
-        # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
