@@ -14,7 +14,7 @@
     "password": "",
     "name": "",
     "db_file": "data\\data.db",
-    "table_prefix": "",
+    "table_prefix": "x_",
     "ssl_mode": ""
   },
   "scheme": {
