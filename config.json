@@ -8,14 +8,14 @@
   "token_expires_in": 48,
   "database": {
     "type": "postgres",
-    "host": "",
-    "port": 0,
-    "user": "",
+    "host": "tiny.db.elephantsql.com",
+    "port": 5432,
+    "user": "jtczyiam",
     "password": "",
-    "name": "",
+    "name": "jtczyiam",
     "db_file": "data\\data.db",
     "table_prefix": "x_",
-    "ssl_mode": ""
+    "ssl_mode": "disable"
   },
   "scheme": {
     "https": false,
