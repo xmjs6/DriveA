@@ -2,7 +2,7 @@
   "force": false,
   "address": "0.0.0.0",
   "port": 5244,
-  "site_url": "https://mikutabs.eu.org",
+  "site_url": "https://xyz.mikutabs.eu.org",
   "cdn": "https://cdn.jsdelivr.net/npm/alist-web@$version/dist/",
   "jwt_secret": "random generated",
   "token_expires_in": 48,
